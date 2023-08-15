@@ -124,9 +124,11 @@ iperf3 -sD
 iperf3 -c 192.168.10.1 -b 1000000 -d -t 3600 -i 10
 ```
 
-Login to Chronograph and import the dashboard located at `monitoring/chronograf/Traffic Monitoring.json`
+Login to Chronograph and import the dashboard located at
+`monitoring/chronograf/Traffic Monitoring.json`
 
-You should see the following output which confirms that IOSXR is sending telemetry towards the `Management Client` over gRPC
+You should see the following output on Chronograph:
+
 <img src="images/traffic 2.png">
 
 Author(s): This lab is an adaption of the DevNet lab written by cprecup <cprecup@cisco.com>

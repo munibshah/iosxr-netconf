@@ -131,5 +131,9 @@ You should see the following output on Chronograph:
 
 <img src="images/traffic 2.png">
 
+You can view sample data for this lab at:
+
+https://modeltelemetry.munibshah.com/
+
 Author(s): This lab is an adaption of the DevNet lab written by cprecup <cprecup@cisco.com>
 Original repository: https://github.com/munibshah/xr-netconf.git

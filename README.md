@@ -1,19 +1,5 @@
 This lab allows you to test Netconf and gRPC capabilities of a Cisco XRv. Follow the steps below to configure a monitoring stack that can stream model driven telemetry data from an XRv9000.
 
-## Device Versions used in the lab
-
-```
-| Software       | version   |
-| -------------- | --------- |
-| python         | `3.10.x`   |
-| ncclient       | `0.6.6`   |
-| docker         | `19.03.5` |
-| docker-compose | `1.23.2`  |
-| iperf (server) | `2.0.5`   |
-| iperf (client) | `2.0.13`  |
-| IOS XR         | `7.9.2`   |
-```
-
 ### Lab Setup
 
 <img src="images/IOSxr.jpg">
@@ -134,6 +120,22 @@ You should see the following output on Chronograph:
 You can view sample data for this lab at:
 
 https://modeltelemetry.munibshah.com/
+
+------
+
+## Device Versions used in the lab
+
+```
+| Software       | version   |
+| -------------- | --------- |
+| python         | `3.10.x`   |
+| ncclient       | `0.6.6`   |
+| docker         | `19.03.5` |
+| docker-compose | `1.23.2`  |
+| iperf (server) | `2.0.5`   |
+| iperf (client) | `2.0.13`  |
+| IOS XR         | `7.9.2`   |
+```
 
 Author(s): This lab is an adaption of the DevNet lab written by cprecup <cprecup@cisco.com>
 Original repository: https://github.com/munibshah/xr-netconf.git

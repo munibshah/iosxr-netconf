@@ -9,7 +9,7 @@ This lab allows you to test Netconf and gRPC capabilities of a Cisco XRv. Follow
 Login to the `Management PC` and clone this repository
 
 ```
-git clone https://github.com/munibshah/xr-netconf.git
+git clone https://github.com/munibshah/iosxr-telemetry.git
 
 cd monitoring
 docker-compose build; docker-compose up -d

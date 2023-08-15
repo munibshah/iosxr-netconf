@@ -67,6 +67,12 @@ telemetry model-driven
   !
  !
  sensor-group SGroupGeneric1
+  sensor-path Cisco-IOS-XR-pfi-im-cmd-oper:interfaces/interface-summary
+  sensor-path Cisco-IOS-XR-nto-misc-oper:memory-summary/nodes/node/detail
+  sensor-path Cisco-IOS-XR-wdsysmon-fd-oper:system-monitoring/cpu-utilization
+  sensor-path Cisco-IOS-XR-nto-misc-oper:memory-summary/nodes/node/summary
+  sensor-path Cisco-IOS-XR-pfi-im-cmd-oper:interfaces/interface-xr/interface
+  sensor-path Cisco-IOS-XR-infra-statsd-oper:infra-statistics/interfaces/interface/latest/generic-counters
   sensor-path Cisco-IOS-XR-ifmgr-oper:interface-properties/data-nodes/data-node/system-view
  !
  subscription Subscription1
@@ -121,7 +127,7 @@ You can view sample data for this lab at:
 
 https://modeltelemetry.munibshah.com/
 
-------
+---
 
 ## Device Versions used in the lab
 

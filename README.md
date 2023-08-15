@@ -1,3 +1,5 @@
+This lab allows you to test Netconf and gRPC capabilities of a Cisco XRv. Follow the steps below to configure a monitoring stack that can stream model driven telemetry data from an XRv9000.
+
 ## Device Versions used in the lab
 
 ```

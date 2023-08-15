@@ -110,7 +110,7 @@ iperf3 -sD
 iperf3 -c 192.168.10.1 -b 1000000 -d -t 3600 -i 10
 ```
 
-Login to Chronograph and import the dashboard located at
+Login to Chronograph > Import the dashboard located at
 `monitoring/chronograf/Traffic Monitoring.json`
 
 You should see the following output on Chronograph:
